@@ -1,16 +1,51 @@
 *,
 *::before,
 *::after {
- padding: 0;
- margin: 0;
- box-sizing: border-box;
- font-size: inherit;
- font-family: ‘Roboto’;
- color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
 }
 
-.fa fa-search{
-    font-size: large;
-    color: blue;
-    position: absolute;
+.nav {
+  position: relative;
+  width: 100%;
+  height: 42px;
+  border-bottom: 1px solid rgb(212, 212, 212);
+  padding: 10px;
+}
+
+.fa {
+  font-size: small;
+}
+
+#nav-left {
+  float: left;
+}
+
+#left-text {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+}
+
+#nav-right {
+  float: right;
+}
+
+.btn {
+  background-color: #567b95;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  color: #fff;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 9px;
 }
