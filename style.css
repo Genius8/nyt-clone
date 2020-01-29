@@ -76,7 +76,7 @@ article {
   font-size: 30px;
   font-style: italic;
   line-height: 42px;
-  padding: 35px 0 30px 170px;
+  padding: 100px 0 30px 170px;
 }
 
 .central-img-container {
@@ -146,7 +146,7 @@ figcaption {
   line-height: 1.9rem;
 }
 
-hr {
+.middle-hr {
   width: 12%;
   margin: 0 auto;
 }
@@ -190,4 +190,29 @@ hr {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.8rem;
   line-height: 1.2rem;
+}
+
+.foot-hr {
+  width: 6%;
+  float: left;
+}
+
+.video {
+  padding-bottom: 80px;
+}
+
+.middle-img-container {
+  width: 700px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.middle-img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#midfig {
+  margin-top: 8px;
+  color: #666;
 }
