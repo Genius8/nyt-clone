@@ -121,5 +121,10 @@ figcaption {
 }
 
 .graphic {
-  width: 50%;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.theory-graphic {
+  max-width: 100%;
 }
