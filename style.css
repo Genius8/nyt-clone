@@ -109,3 +109,17 @@ figcaption {
   width: 30px;
   height: 30px;
 }
+
+.article-text {
+  width: 35%;
+  margin: 0 auto;
+}
+
+.little-text {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.graphic {
+  width: 50%;
+}
