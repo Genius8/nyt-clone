@@ -216,3 +216,29 @@ figcaption {
   margin-top: 8px;
   color: #666;
 }
+
+.pic {
+  background-color: white;
+  float: left;
+  height: 40%;
+  margin: 10px;
+  width: calc(33.3333% - 20px);
+}
+
+.pic img {
+  height: 15em;
+  width: 100%;
+}
+
+.footer {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  position: relative;
+  text-align: left;
+  clear: both;
+  height: 38em;
+  left: 2px;
+  top: 300px;
+  width: 90%;
+}
