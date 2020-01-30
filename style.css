@@ -242,3 +242,27 @@ figcaption {
   top: 300px;
   width: 90%;
 }
+.end {
+  clear: both;
+  font-size: 14px;
+}
+.end-links {
+  background-color: white;
+  float: left;
+  height: 31em;
+  margin: 10px;
+  width: 15%;
+  text-align: left;
+}
+a:hover{
+  text-decoration: underline;
+}
+.more{
+  clear: both;
+  text-align: center;
+}
+.more a{
+  color: grey;
+  text-decoration: none;
+  font-size: small;
+}
