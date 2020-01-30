@@ -90,9 +90,12 @@ article {
 
 figcaption {
   margin-top: 8px;
-  max-width: 70%;
-  float: left;
+  width: 70%;
   color: #666;
+}
+
+.middle-img-container figcaption {
+  width: 100%;
 }
 
 .img-foot {
@@ -169,26 +172,22 @@ figcaption {
 }
 
 .graphic {
-  width: 1000px;
+  width: 960px;
   margin: 0 auto;
-}
-
-.theory-graphic {
-  max-width: 100%;
 }
 
 .graphics {
   background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
-  background-size: 980px;
+  background-size: 940px;
   background-repeat: no-repeat;
   border-spacing: 10px;
 }
 
 .graphics td {
-  height: 150px;
+  height: 125px;
   width: 240px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1.2rem;
 }
 
@@ -198,23 +197,28 @@ figcaption {
 }
 
 .video {
-  padding-bottom: 80px;
+  width: 31%;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.video iframe {
+  width: 100%;
+}
+
+.video figcaption {
+  width: 85%;
 }
 
 .middle-img-container {
   width: 700px;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .middle-img {
   width: 100%;
   margin: 0 auto;
-}
-
-#midfig {
-  margin-top: 8px;
-  color: #666;
 }
 
 .pic {
@@ -230,6 +234,23 @@ figcaption {
   width: 100%;
 }
 
+.sm {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.73rem;
+  color: rgb(102, 102, 102);
+  line-height: 1rem;
+  width: 96%;
+}
+
+.sm a {
+  color: rgb(102, 102, 102);
+}
+
+.comments {
+  padding: 12px 100px;
+  font-size: 0.8rem;
+}
+
 .footer {
   background-color: white;
   margin: 0 auto;
@@ -242,10 +263,12 @@ figcaption {
   top: 300px;
   width: 90%;
 }
+
 .end {
   clear: both;
   font-size: 14px;
 }
+
 .end-links {
   background-color: white;
   float: left;
@@ -254,14 +277,17 @@ figcaption {
   width: 15%;
   text-align: left;
 }
-a:hover{
+
+a:hover {
   text-decoration: underline;
 }
-.more{
+
+.more {
   clear: both;
   text-align: center;
 }
-.more a{
+
+.more a {
   color: grey;
   text-decoration: none;
   font-size: small;
