@@ -88,14 +88,16 @@ article {
   max-width: 100%;
 }
 
-figcaption {
+.figcaption {
   margin-top: 8px;
   width: 70%;
   color: #666;
 }
 
-.middle-img-container figcaption {
+.midfig {
+  margin-top: 8px;
   width: 100%;
+  color: #666;
 }
 
 .img-foot {
@@ -279,6 +281,7 @@ aside h2 {
 
 .video iframe {
   width: 100%;
+  border: none;
 }
 
 .video figcaption {
