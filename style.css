@@ -125,6 +125,7 @@ figcaption {
 
 .soc-networks {
   float: right;
+  vertical-align: text-bottom;
 }
 
 .date {
@@ -140,6 +141,13 @@ figcaption {
   background-color: rgb(238, 238, 238);
   width: 30px;
   height: 30px;
+  margin-left: 1rem;
+  vertical-align: text-bottom;
+}
+
+.far {
+  font-size: 30px;
+  margin-left: 1rem;
 }
 
 .article-text {
@@ -147,6 +155,10 @@ figcaption {
   margin: 0 auto;
   font-size: 1.35rem;
   line-height: 1.9rem;
+}
+
+.article-text a {
+  color: #326891;
 }
 
 .middle-hr {
@@ -171,9 +183,47 @@ figcaption {
   color: rgb(50, 104, 145);
 }
 
+.aside-sec {
+  width: 20%;
+  float: right;
+}
+
+.little-container a {
+  float: left;
+  margin: 30px;
+}
+
+.pick {
+  width: 70px;
+}
+
+.aside-img {
+  width: 100%;
+  float: left;
+}
+
+.aside-text {
+  width: 30%;
+}
+
 .graphic {
   width: 960px;
   margin: 0 auto;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+}
+
+.graphic h1 {
+  font-size: 1.2rem;
+}
+
+.graphic p {
+  color: rgb(138, 138, 138);
+}
+
+.graphic-foot {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  color: #000;
 }
 
 .graphics {
@@ -189,6 +239,7 @@ figcaption {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.7rem;
   line-height: 1.2rem;
+  vertical-align: top;
 }
 
 .foot-hr {
@@ -274,6 +325,7 @@ figcaption {
   width: 63%;
   margin: 0 auto;
   padding-bottom: 150px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .sign-text {
@@ -286,12 +338,28 @@ figcaption {
   float: right;
 }
 
-input {
+.button-inside {
   width: 60%;
 }
 
+input {
+  position: absolute;
+  width: 31%;
+  height: 40px;
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 5px;
+}
+
 .register {
-  width: 30%;
+  position: relative;
+  width: 250px;
+  height: 40px;
+  left: 360px;
+}
+
+.updates {
+  color: #b9b9b9;
+  font-size: 0.8rem;
 }
 
 .sm {
