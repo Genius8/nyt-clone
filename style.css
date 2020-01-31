@@ -434,7 +434,7 @@ input {
   margin-top: 100px;
   text-align: left;
   clear: both;
-  height: 38em;
+  height: 30em;
   left: 2px;
   top: 300px;
   width: 90%;
@@ -534,4 +534,41 @@ a:hover {
 .bottom-list li {
   display: inline-block;
   margin-top: 1rem;
+}
+
+footer {
+  background-color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-top: 1px solid #000;
+  height: 60px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.ft-left {
+  width: 70%;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.ft-left p {
+  margin-left: 30rem;
+}
+
+.ft-right {
+  width: 30%;
+  float: right;
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.ft-right i {
+  padding-left: 2rem;
 }
