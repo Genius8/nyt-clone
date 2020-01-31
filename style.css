@@ -282,9 +282,18 @@ figcaption {
   float: left;
 }
 
+.more-in p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.7rem;
+  padding-top: 5px;
+  color: #bebebe;
+}
+
 .arta h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.9rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bottoms {
@@ -338,6 +347,11 @@ figcaption {
   float: right;
 }
 
+.sign-form label {
+  position: relative;
+  bottom: 15px;
+}
+
 .button-inside {
   width: 60%;
 }
@@ -360,6 +374,14 @@ input {
 .updates {
   color: #b9b9b9;
   font-size: 0.8rem;
+  position: relative;
+  left: 20px;
+}
+
+.sign-up a {
+  font-size: 10px;
+  color: #567b95;
+  text-decoration: none;
 }
 
 .sm {
@@ -400,6 +422,11 @@ input {
   margin-top: 1rem;
 }
 
+.arti img {
+  margin-top: 1rem;
+  float: left;
+}
+
 .bottom-links a {
   float: right;
   font-size: 0.6rem;
@@ -411,7 +438,7 @@ input {
 .end {
   clear: both;
   font-size: 13px;
-  margin-top: 1rem;
+  margin-top: 3.5rem;
 }
 
 .end-links {
