@@ -183,14 +183,32 @@ figcaption {
   color: rgb(50, 104, 145);
 }
 
-.aside-sec {
-  width: 20%;
+/* Editor's aside */
+
+aside {
+  width: 200px;
   float: right;
+  margin-right: 370px;
+}
+
+aside h2 {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.little-container {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.little-container p {
+  padding-top: 20px;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: small;
 }
 
 .little-container a {
-  float: left;
-  margin: 30px;
+  text-decoration: none;
+  color: #121212;
 }
 
 .pick {
@@ -200,10 +218,16 @@ figcaption {
 .aside-img {
   width: 100%;
   float: left;
+  margin: 10px;
+}
+
+.pick p {
+  float: right;
 }
 
 .aside-text {
-  width: 30%;
+  width: 40%;
+  float: right;
 }
 
 .graphic {
