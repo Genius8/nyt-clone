@@ -304,6 +304,12 @@ aside h2 {
   margin: 0 auto;
 }
 
+.arta a {
+  text-decoration: none;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  color: #000;
+}
+
 .more-in {
   width: 75%;
   float: left;
